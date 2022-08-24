@@ -1,0 +1,320 @@
+.title {
+    animation: fadeIn 3s , slideInLeft 1s;
+    -webkit-animation: fadeIn 3s, slideInLeft 1s;
+    -moz-animation: fadeIn 3s, slideInLeft 1s;
+    -o-animation: fadeIn 3s, slideInLeft 1s;
+    -ms-animation: fadeIn 3s, slideInLeft 1s;
+    font-size: 80px;
+    text-align: center;
+}
+
+.title-container {
+    position: relative;
+}
+
+.plus-image {
+    position: absolute;
+    bottom: 0;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    cursor: pointer;
+}
+
+.plus-image:hover {
+    opacity: 0.8;
+}
+
+.block {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    left: 0px;
+    -webkit-transition: left 0.3s;
+    -moz-transition: left 0.3s;
+    -o-transition: left 0.3s;
+    transition: 0.3s;
+    visibility: hidden;
+}
+
+.expand-block{
+    visibility: visible;
+    height: 700px;
+    width: 100%;
+    border-radius: 0;
+}
+
+.paragraph {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.message-container {
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.icons {
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+
+.facebook:hover, .instagram:hover {
+    opacity: 0.8;
+}
+
+.title-fade, .details-fade {
+    opacity: 0;
+    animation: fadeOut 1s, slideOutLeft 1.5s;
+    -webkit-animation: fadeOut 1s, slideOutLeft 1.5s;
+    -moz-animation: fadeOut 1s, slideOutLeft 1.5s;
+    -o-animation: fadeOut 1s, slideOutLeft 1.5s;
+    -ms-animation: fadeOut 1s, slideOutLeft 1.5s;
+}
+
+.title-block {
+    font-size: 60px;
+    color: rgb(97,24,24);
+}
+
+.details {
+    font-size: 18px;
+    position: absolute;
+    width: 125px;
+    bottom: 5px;
+    left: 54px;
+}
+
+.message {
+    animation: fadeIn 1.5s , slideInLeft 1s;
+    -webkit-animation: fadeIn 1.5s, slideInLeft 1s;
+    -moz-animation: fadeIn 1.5s, slideInLeft 1s;
+    -o-animation: fadeIn 1.5s, slideInLeft 1s;
+    -ms-animation: fadeIn 1.5s, slideInLeft 1s;
+}
+
+hr { 
+    width: 64%;
+    display: block; 
+    border: 0;
+    border-top: 2px solid rgba(97, 24, 24, 0.883);
+    margin: 1em 0;
+    padding: 0; 
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+
+@-moz-keyframes fadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+
+@-webkit-keyframes fadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+
+@-o-keyframes fadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+
+@-ms-keyframes fadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+
+//slides from the left
+@-webkit-keyframes slideInLeft {
+0% { transform: translateX(-400px); }
+100% { transform: translateX(0); }
+}
+
+@-moz-keyframes slideInLeft {
+0% { transform: translateX(-400px); }
+100% { transform: translateX(0); }
+}
+
+@keyframes slideInLeft {
+0% { transform: translateX(-400px); }
+100% { transform: translateX(0); }
+}
+
+//slides out from the left
+@-webkit-keyframes slideOutLeft {
+0% { transform: translateX(0); }
+100% { transform: translateX(400px); }
+}
+
+@-moz-keyframes slideOutLeft {
+0% { transform: translateX(0); }
+100% { transform: translateX(400px); }
+}
+
+@keyframes slideOutLeft {
+0% { transform: translateX(0); }
+100% { transform: translateX(400px); }
+}
+
+//button design
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  text-transform: uppercase;
+  background-color: rgb(97,24,24);
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  justify-content: center;
+  line-height: 1.25;
+  letter-spacing: 1px;
+  margin: 0;
+  min-height: 3rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  outline: none;
+}
+
+.button-5:hover{
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(2px);
+}
+
+// Small devices only
+@media (max-width: 992px) {
+    .container {
+        overflow-x: hidden !important;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+    .container {
+        position: fixed;
+        bottom:18%;
+        left:10.5%;
+    }
+
+    .title {
+        font-size: 10.5em;;
+    }
+
+    .title-container {
+        position: relative;
+        width: 50%;
+        margin-top: 37%;
+        margin-left: 5%;
+    }
+
+    .icons {
+        display:inline;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .plus {
+        position: absolute;
+        bottom: -7px;
+        left: -10px;
+    }
+
+    .block {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 45px;
+        height: 45px;
+        background-color: white;
+        border-radius: 50%;
+        transition: 0.3s;
+        visibility: hidden;
+    }
+    
+    .expand-block{
+        visibility: visible;
+        height: 575px;
+        width: 475px;
+        border-radius: 0;
+    }
+}
+
+// Extra large devices (large desktops)
+@media (min-width: 1500px) {
+
+    .block {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 45px;
+        height: 45px;
+        background-color: white;
+        border-radius: 50%;
+        transition: 0.3s;
+        visibility: hidden;
+    }
+    
+    .expand-block{
+        visibility: visible;
+        height: 680px;
+        width: 500px;
+        border-radius: 0;
+    }
+
+}

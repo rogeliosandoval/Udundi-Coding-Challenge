@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'udundi-coding-challenge';
+  animate = false;
+  message = false;
+
+  // This function expands the "More Details" by setting animate to true
+  expand() {
+    this.animate = true;
+    this.message = true;
+  }
+
+  // This function shrinks the "More Details" by setting animate back to false
+  shrink() {
+    this.animate = false;
+    this.message = false;
+  }
 }

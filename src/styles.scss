@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Noto+Serif+Display:wght@500&family=Saira:wght@300&display=swap');
+
+body {
+    padding: none;
+    margin: none;
+    font-family: 'Noto Serif Display', serif;
+    color:white;
+    background-color: #FFFFFF;
+    background: url("./assets/Coding-Challenge-Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+//Maroon wall that is over the image
+.overlay {
+    display:block;
+    position:absolute;
+    width: 100vw;
+    height: 22%;
+    left:0;
+    top:0;
+    background: rgb(85, 0, 0);
+    z-index: -1;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    body {
+        font-family: 'Noto Serif Display', serif;
+        color:white;
+        background: url("./assets/Coding-Challenge-Image.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .overlay {
+        display:block;
+        position:absolute;
+        width: 27%;
+        height: 100vh;
+        left:0;
+        top:0;
+        background: rgb(85, 0, 0);
+        z-index: -1;
+    }
+}
+
+// Extra large devices (large desktops)
+@media (min-width: 1500px) {
+    .overlay {
+        display:block;
+        position:absolute;
+        height: 100vh;
+        left:0;
+        top:0;
+        background: rgb(85, 0, 0);
+        z-index: -1;
+    }
+}
