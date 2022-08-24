@@ -1,5 +1,5 @@
 <h1>Udundi Coding Challenge</h1>
-<a href="https://udundi-coding-challenge-sooty.vercel.app/"><b>Link</b></a>
+<a href="https://udundi-coding-challenge-sooty.vercel.app/"><b>Live Demo</b></a>
 <br>
 <h3>Framework Used:</h3>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="68px;"/>
@@ -13,7 +13,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="60px;"/> 
 <br>
 <br>
-A simple coding challenge that involved mocking up a web page that was provided using HTML, CSS, and Javascript.
+A simple coding challenge that involved mocking up a web page that was provided using HTML, CSS, and Javascript. The main focus was the animation.
 <br>
 <br>
 <b>Reference:</b>
