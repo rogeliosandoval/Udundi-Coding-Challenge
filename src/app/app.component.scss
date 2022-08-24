@@ -42,13 +42,13 @@
 
 .expand-block{
     visibility: visible;
-    height: 700px;
+    height: 485px;
     width: 100%;
     border-radius: 0;
 }
 
 .paragraph {
-    max-height: 500px;
+    max-height: 250px;
     overflow-y: scroll;
 }
 
@@ -56,8 +56,8 @@
     overflow: hidden;
     padding-left: 40px;
     padding-right: 50px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .icons {
@@ -80,7 +80,7 @@
 }
 
 .title-block {
-    font-size: 60px;
+    font-size: 45px;
     color: rgb(97,24,24);
 }
 
