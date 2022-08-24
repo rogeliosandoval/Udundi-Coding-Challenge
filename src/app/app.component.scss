@@ -293,6 +293,10 @@ hr {
         width: 475px;
         border-radius: 0;
     }
+
+    .paragraph {
+        max-height: 21.5em;
+    }
 }
 
 // Extra large devices (large desktops)
@@ -315,6 +319,10 @@ hr {
         height: 680px;
         width: 500px;
         border-radius: 0;
+    }
+
+    .paragraph {
+        max-height: 28em;
     }
 
 }
