@@ -21,4 +21,4 @@ A simple coding challenge that involved mocking up a web page that was provided 
 <br>
 <br>
 <b>Udundi Challenge:</b>
-<img src="udundi-challenge.gif" alt="portfolio" width="100%" height="auto">
+<img src="udundi.gif" alt="portfolio" width="100%" height="auto">
