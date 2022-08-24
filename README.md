@@ -16,3 +16,9 @@
 A simple coding challenge that involved mocking up a web page that was provided using HTML, CSS, and Javascript.
 <br>
 <br>
+<b>Reference:</b>
+<img src="ref.gif" alt="portfolio" width="100%" height="auto">
+<br>
+<br>
+<b>Udundi Challenge:</b>
+<img src="udundi-challenge.gif" alt="portfolio" width="100%" height="auto">
