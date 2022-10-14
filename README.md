@@ -13,7 +13,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="60px;"/> 
 <br>
 <br>
-A simple coding challenge that involved mocking up a web page that was provided using HTML, CSS, and Javascript. The main focus was the animation.
+A simple coding challenge that involved mocking up a web page that was provided using HTML, CSS, and JavaScript. The main focus was the animation.
 <br>
 <br>
 <b>Reference:</b>
